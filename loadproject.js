@@ -23,7 +23,7 @@ window.onload = function () {
         project.view.renderMode = 'webgl'
         project.view.canvasContainer = container
         project.view.fitMode = 'fill'
-        project.view.canvasBGColor = '#000000'
+        project.view.canvasBGColor = project.backgroundColor
 
         window.onresize = function () {
             project.view.resize()
